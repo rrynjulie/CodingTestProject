@@ -1,4 +1,4 @@
-package ProgrammersRunningRace;
+package Programmers.RunningRace;
 
 import java.util.*;
 
@@ -33,6 +33,4 @@ class Solution {
             // 결과 출력
             System.out.println(Arrays.toString(result));
         }
-
-
 }
