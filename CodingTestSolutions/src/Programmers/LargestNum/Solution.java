@@ -15,7 +15,7 @@ class Solution {
         if (nums[0].equals("0")) {
             return "0";
         }
-        answer = Arrays.stream(nums).collect(Collectors.joining());
+        answer = String.join("", nums);
         return answer;
     }
 }
